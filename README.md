@@ -1,15 +1,15 @@
 # Life, in progress
 
-A calm personal dashboard for daily habits, goals, projects, learning, and reflection.
+A personal dashboard for habits, goals, projects, books, trainings, and weekly reflection.
 
 ## Use the app
 
-Open the published GitHub Pages URL, or open `index.html` locally in a browser. Your check-ins and notes are saved in that browser on that device. They are not synced across devices.
+Open https://zabita9.github.io/life-dashboard/ in a modern browser. Create an account with your email and a password to sync your dashboard across browsers and devices. Supabase sends a confirmation email before first sign-in. Use the same account on each device.
 
-## Publish
+Without signing in, entries stay in that browser on that device. With sign-in, the dashboard syncs through a private, row-secured Supabase table. The app stores no personal entries in the public GitHub repository.
 
-The included GitHub Actions workflow deploys the site to GitHub Pages. In repository Settings → Pages, set the build and deployment source to **GitHub Actions**. Future pushes to `main` publish automatically.
+## Reminders
 
-## Privacy
+Choose morning and evening times, then select **Enable notifications** and allow notifications in the browser. Reminders run while the app is open (including in a background tab). This version does not send reminders after the browser is fully closed.
 
-The repository and Pages site are public. The app stores data only in local browser storage; do not enter sensitive personal information.
+The app is a static GitHub Pages site and uses Supabase Auth and the Supabase JavaScript client for sign-in and syncing.
