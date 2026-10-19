@@ -8,6 +8,8 @@ Open https://zabita9.github.io/life-dashboard/ in a modern browser. Create an ac
 
 Without signing in, entries stay in that browser on that device. With sign-in, the dashboard syncs through a private, row-secured Supabase table. The app stores no personal entries in the public GitHub repository.
 
+Open the **Learning** tab to manage your reading and training lists. Use **Add a book or training** to enter titles and optional notes or links.
+
 ## Reminders
 
 Choose morning and evening times, then select **Enable notifications** and allow notifications in the browser. Reminders run while the app is open (including in a background tab). This version does not send reminders after the browser is fully closed.
